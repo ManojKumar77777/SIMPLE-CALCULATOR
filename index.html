@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator</title>
+
+    <!--Css-->
+    <link rel="stylesheet" href="../calculator/style.css" />
+
+    <!--Js-->
+    <script src="../calculator/index.js"></script>
+</head>
+
+
+<body>
+
+    <h1>Simple Calculator</h1>
+    <div class="container">
+        <!-- Output -->
+
+        <div id="output">0</div>
+
+        <!-- Inputs -->
+        <input type="text" id="input1" placeholder="Value 1" />
+        <input type="text" id="input2" placeholder="Value 2" />
+
+        <!-- Buttons -->
+        <div class="btns-container">
+            <button class="btns" onclick="add()">Addition</button>
+            <button class="btns" onclick="sub()">Subtraction</button>
+            <button class="btns" onclick="mul()">Multiplication</button>
+            <button class="btns" onclick="div()">Division</button>
+            <button class="btns" onclick="reset()" id="reset">Reset</button>
+        </div>
+        <br />
+    </div>
+
+
+</body>
+
+</html>
